@@ -45,31 +45,36 @@
 		<tr>
 			<td>
 				<button id="toggle-facets">Toggle facets</button>
-				Original Toggleable Facets (now working correctly)
+				<h2>Hidden facets</h2>
 				<div id="facet-list" style="display:none;">
+					Normal facet
 					<div data-ex-role="facet"
 					     data-ex-expression=".party"></div>
-					<div data-ex-role="facet"
-					     data-ex-expression=".state"></div>
+					Collapsible facet, starts out uncollapsed
 					<div data-ex-role="facet"
 						     data-ex-expression=".party"
 						     data-ex-collapsible="true"
 						     ></div>
+					Collapsible facet, starts out collapsed	 
 					<div data-ex-role="facet"
-						     data-ex-expression=".state"
+						     data-ex-expression=".party"
 						     data-ex-collapsible="true"
 						     data-ex-collapsed="true"></div>
 				</div>
 				<div style="background-color: #fdd;">
 					<br/>
-					<h2>For testing</h2>
-					A Collapsible Facet
+					<h2>Visible facets</h2>
+					Normal facet
+					<div data-ex-role="facet"
+					     data-ex-expression=".party"></div>
+					Collapsible facet, starts out uncollapsed
 					<div data-ex-role="facet"
 						     data-ex-expression=".party"
-						     data-ex-collapsible="true"></div>
-					A Collapsible Facet, starts out collapsed
+						     data-ex-collapsible="true"
+						     ></div>
+					Collapsible facet, starts out collapsed	 
 					<div data-ex-role="facet"
-						     data-ex-expression=".state"
+						     data-ex-expression=".party"
 						     data-ex-collapsible="true"
 						     data-ex-collapsed="true"></div>
 				</div>
